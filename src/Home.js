@@ -7,9 +7,11 @@ const Home = () => {
       localStorage.clear();
       redirect("/login")
     }
+
+   
   return (
     <div>
-        <h1>Home page</h1>
+        <h1 style={{color: "blue"}}>Home page</h1>
         <Link to="/login"><button>login</button></Link>
         <button onClick={logout}>logout</button>
         
