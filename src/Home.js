@@ -11,7 +11,8 @@ const Home = () => {
    
   return (
     <div>
-        <h1 style={{color: "blue"}}>Home page</h1>
+        <h1 style={{color: "blue", alignItems: "center"}}>Home page</h1>
+        <p>testing for git push</p>
         <Link to="/login"><button>login</button></Link>
         <button onClick={logout}>logout</button>
         
